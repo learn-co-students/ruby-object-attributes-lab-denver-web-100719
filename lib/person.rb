@@ -1,3 +1,5 @@
+require "pry"
+
 class Person
     def name
         @name
@@ -14,4 +16,5 @@ class Person
     def job=(new_job)
         @job = new_job
     end
+    binding.pry
 end
